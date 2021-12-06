@@ -1,0 +1,104 @@
+/*彩虹文字*/
+#post .post-copyright .post-copyright-info a,
+#footer-wrap,
+#nav #site-name,
+#page-header #site-title,
+#page-header #site-subtitle,
+/* #git_container .contrib-column, */
+#git_container .float-left.text-gray,
+#post-info .post-title {
+  /* padding-top: 3px; */
+  background-image: linear-gradient(
+    to left,
+    orangered,
+    orange,
+    gold,
+    lightgreen,
+    cyan,
+    dodgerblue,
+    mediumpurple,
+    hotpink,
+    orangered
+  );
+  background-size: 110vw;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-animation: rainbowan 60s linear infinite;
+  animation: rainbowan 60s linear infinite;
+}
+@-webkit-keyframes rainbowan {
+  to {
+    background-position: -2000vw;
+  }
+}
+@keyframes rainbowan {
+  to {
+    background-position: -2000vw;
+  }
+}
+
+/* 导航栏 颜色 */
+#nav a span {
+  color: #ff8c00;
+}
+.fa-search:before {
+  color: LightGreen;
+}
+.fa-home:before {
+  color: Yellow;
+}
+.fa-archive:before {
+  color: rgb(25, 145, 185);
+}
+.fa-tags:before {
+  color: rgb(96, 70, 243);
+}
+.fa-folder-open:before {
+  color: rgb(243, 106, 117);
+}
+.fa-comments:before {
+  color: rgb(24, 231, 24);
+}
+.fa-link:before {
+  color: #a9fe76;
+}
+.fa-heart:before {
+  color: #ff0000;
+}
+.fa-list:before {
+  color: #a9fe76;
+}
+
+/* 社交 颜色 */
+#aside-content .card-info #card-info-btn,
+#rightside > div > button,
+#rightside > div > a {
+  background-color: #ff69b4 !important;
+}
+.fa-github-alt:before {
+  color: #94d82d;
+}
+.fa-gitter:before {
+  color: #cc5de8;
+}
+.fa-envelope:before {
+  color: #8e9fff;
+}
+.fa-rss:before {
+  color: orange;
+}
+
+.fa-image:before {
+  color: rgb(25, 145, 185);
+}
+.fa-history:before {
+  color: #8e9fff;
+}
+.fa-comment-dots:before {
+  color: rgb(24, 231, 24);
+}
+/* 隐藏侧边栏微信图标样式 */
+#rightside-config-show .fa-comments:before {
+  color: inherit;
+}
