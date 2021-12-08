@@ -1,6 +1,6 @@
 /* 页脚footer */
 /* 渐变色滚动动画 */
-@-webkit-keyframes Gradient {
+/* @-webkit-keyframes Gradient {
   0% {
     background-position: 0 50%;
   }
@@ -54,7 +54,11 @@
   user-select: none;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+} */
+#footer,
+#footer::before {
+  background-color: transparent !important;
 }
-#footer:before {
-  background-color: rgba(0, 0, 0, 0);
+#footer #footer-wrap {
+  padding: 20px;
 }
