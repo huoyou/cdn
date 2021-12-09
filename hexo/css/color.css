@@ -102,3 +102,11 @@
 #rightside-config-show .fa-comments:before {
   color: inherit;
 }
+
+/* 修改分缝线及线条样式 */
+hr {
+  border-color: orange;
+}
+hr::before {
+  color: orange;
+}
