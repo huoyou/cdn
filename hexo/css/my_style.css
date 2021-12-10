@@ -88,7 +88,7 @@
 @font-face {
   font-family: "tzy";
   /* 字体名自定义即可 */
-  src: url("https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2");
+  src: url("https://cdn.jsdelivr.net/gh/huoyou/cdn/hexo/fonts/ZhuZiAWan.woff2");
   /* 字体文件路径 */
   font-display: swap;
 }
@@ -198,5 +198,22 @@ figure.highlight pre .addition {
 
 /* 鼠标经过头像特效 */
 #aside-content .card-info .is-center:hover {
-  background: url(https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/theme_f/avater_hover.gif);
+  background: url(https://cdn.jsdelivr.net/gh/huoyou/cdn/hexo/imgs/avater_hover.gif);
+}
+
+/* 修改播放器 -- 播放时样式 */
+.aplayer.no-destroy .aplayer-pic .aplayer-pause {
+  width: 26px;
+  height: 26px;
+  border: 2px solid #fff;
+  bottom: 50%;
+  right: 50%;
+  margin: 0 -15px -15px 0;
+}
+.aplayer.no-destroy .aplayer-pic .aplayer-pause svg {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  height: 12px;
+  width: 12px;
 }
